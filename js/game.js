@@ -77,8 +77,8 @@ zidan.prototype = {
 function lizi(canvas,cobj,person) {
     this.canvas=canvas;
     this.cobj=cobj;
-    this.x=person.x+person.width/2;
-    this.y=person.y+person.height/2;
+    this.x=person.x+person.width/5;
+    this.y=person.y+person.height/8;
     this.r=1+2*Math.random();
     this.sheepx=6*Math.random()-3;
     this.sheepy=6*Math.random()-3;
