@@ -218,7 +218,7 @@ game.prototype= {
                 if(!that.finderarr[i].flag){
                     xue(that.canvas,that.cobj,that.person);
                     that.person.life--;
-                    // that.hita.play();
+                    that.hita.play();
                     // 碰撞声音
                     that.lif.style.width=100-(that.person.life)*33+"%";
                     if(that.person.life==0){
